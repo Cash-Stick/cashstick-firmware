@@ -1,0 +1,51 @@
+# Build directories
+build/
+*.build/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.elf
+*.bin
+*.hex
+*.uf2
+
+# Debug files
+*.map
+*.lst
+*.dis
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.vs/
+*.code-workspace
+
+# Temporary files
+*~
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Pico SDK (should be installed separately)
+pico-sdk/
+
+# Hardware test files
+test_output/
+*.log
